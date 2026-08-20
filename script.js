@@ -7,5 +7,5 @@ button.addEventListener("click", function (){
     button.textContent = "Loading...";
     setTimeout(function (){
         window.location.href = "playable.html";
-    }, 2000);
+    }, 1500);
 });
