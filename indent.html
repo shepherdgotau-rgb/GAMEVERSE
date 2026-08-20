@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Gameverse score checker</Title>
+    </head>    
+    <body>
+       <h1>Gameverse</h1>
+       <p>Please do well to abstain from lies.</p>
+       <label>Score:</label>
+       <input type="number" id="score">
+       <label>lives:</label>
+       <input type="number" id="lives">
+       <button id="checkButton">Check score</button>
+       <p id="result"></p>
+       <script>
+        let button = document.getElementById("checkButton");
+        button.addEventListener("click", function() {
+let score = document.getElementById("score").value;
+let lives = document.getElementById("lives").value;
+if (score >= 10 && lives > 0) {
+         document.getElementById("result").textContent = "Champion";
+} else if (score >= 5) {
+        
+} else {
+         
+
+}
+        });
+       </script>
+    </body>     
+</html>

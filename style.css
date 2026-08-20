@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    color: cyan;
+}
+p{
+    color: white;
+}
+button{
+    background-color: cyan;
+    padding: 20px 30px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 20px cyan;
+    font-weight: 600;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+}
+img{
+    width: 400px;
+    border-radius: 20px;
+    border: 3px solid cyan;
+    margin-top: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 10px 30px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    cursor: pointer;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    color: cyan;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 10px 30px;
+}
+.hero h1{
+    font-size: 50px;
+    text-shadow: 20px;
+    text-shadow: 0 0 15px cyan;
+}
+.navbar h1{
+    color: white;
+    font-size: 30px;
+}
+.hero p{
+    margin-top: -20px;
+}
+.hero ul{
+    font-family: 'Orbitron', sans-serif;
+    margin-left: -200px;
+    margin-top: -15px;
+}
+.hero a{
+    font-size: 20px;
+    text-shadow: 0 0 10px purple;
+    margin-top: 25px;
+}
+.square{
+    width: 1570px;
+    height: 10px;
+    background-color: cyan;
+}
+.hero.image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.hero img{
+    box-shadow: 0 10px 30px cyan;
+}
+.hero h1{
+    font-style: italic;
+}

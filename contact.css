@@ -1,0 +1,15 @@
+.hero{
+    background-color: black;
+    color: azure;
+}
+ul{
+    font-size: 40px;
+}
+h1{
+    font-size: 70px;
+    color: cyan;
+    text-shadow: 2px 3px 7px cyan;
+}
+body{
+    background-color: black;
+}

@@ -1,0 +1,54 @@
+body{
+     background-color: rgb(6, 2, 41);
+     color: wheat;
+
+}
+h1{
+    color: cyan;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 2px 3px 5px purple;
+    
+}
+img{
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px purple;
+}
+button{
+    color: black;
+    background-color: cyan;
+    cursor: pointer;
+    padding: 30px 150px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px cyan;
+}
+button:hover{
+    background-color: blue;
+    size: 30px;
+    padding: 35px 175px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px cyan;
+}
+.square{
+    width: 1580px;
+    height: 10px;
+    background-color: purple;
+}    
+p{
+    font-size: 20px 10px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -30px;
+}
+h2{
+    color: white;
+    font-size: 30px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
