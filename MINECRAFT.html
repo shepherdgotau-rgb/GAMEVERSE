@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minecraft for Gameverse</title>
+         <link rel="stylesheet" href="GTA.css"> 
+    </head>
+    <body>
+        <div class="square"></div>
+        <div class="navbar">
+            <h1>MINECRAFT</h1>
+             <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Playable.html">Games</li>
+        <li><a href="News.html">News</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="indent.html">Score</a></li>
+    </ul>
+    </div>
+         <div class="hero">
+        <h1>THIS IS MINECRAFT</h1> 
+        <p>Explore the wonderful universe of MINECRAFT and do not miss out on updates</p>
+        <img src="MINECRAFT.jpeg" alt="MINECRAFT picture">
+        <div class="pic">
+        <img src="m.jpeg" class="img1">
+        <img src="m.jpeg" class="img2">
+        <img src="m.jpeg" class="img3">
+        <img src="m.jpeg" class="img4">
+        <img src="m.jpeg" class="img5">
+        <img src="m.jpeg" class="img6">
+        <img src="m.jpeg" class="img7">
+        <img src="m.jpeg" class="img8">
+        </div>
+        <button id="Download">Download now!!!</button>
+        <button id="Updates">Click here for updates</button> 
+        </div>     
+        <script>
+            const Download = document.getElementById("Download")
+Download.addEventListener("click", function (){
+    Download.textContent = "Loading...";
+    setTimeout(function (){
+        window.location.href = "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&pcampaignid=web_share";
+    }, 2000);
+});
+        </script> 
+    </body>
+</html>

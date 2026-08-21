@@ -20,6 +20,7 @@ button:hover{
     border: none;
     border-radius: 10px;
     box-shadow: 2px 3px 10px cyan;
+    gap: 30px;
 }
 .square{
     width: 1580px;
@@ -32,3 +33,55 @@ button:hover{
     justify-content: space-between;
     flex-direction: column;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 10px 30px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 10px 30px;
+    gap: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    color: wheat;
+}
+.fl{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.GTAV{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.MINECRAFT{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.navbar h1{
+    text-shadow: 3px 3px 5px cyan;
+    font-family: inherit;
+    outline: 3px;
+}
+.hero h1{
+    text-shadow: 3px 3px purple;
+    font-family: monospace;
+    font-size: 60px;
+}
+
+

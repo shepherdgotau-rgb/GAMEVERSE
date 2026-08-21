@@ -13,3 +13,22 @@ h1{
 body{
     background-color: black;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 10px 30px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 10px 30px;
+    gap: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}

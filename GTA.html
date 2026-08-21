@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GTA V for Gameverse</title>
+         <link rel="stylesheet" href="GTA.css"> 
+    </head>
+    <body>
+        <div class="square"></div>
+        <div class="navbar">
+            <h1>GTA V</h1>
+               <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Playable.html">Games</li>
+        <li><a href="News.html">News</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="indent.html">Score</a></li>
+    </ul>
+    </div>
+        <div class="hero">
+    
+        <h1>THIS IS GTA V</h1>
+        <p>Explore the wonderful universe of GTA V and do not miss out on updates</p>
+        <img src="GTA V.jpeg" alt="GTA V picture">
+        <div class="pic">
+        <img src="money.jpeg" class="img1">
+        <img src="money.jpeg" class="img2">
+        <img src="money.jpeg" class="img3">
+        <img src="money.jpeg" class="img4">
+        <img src="money.jpeg" class="img5">
+        <img src="money.jpeg" class="img6">
+        <img src="money.jpeg" class="img7">
+        <img src="money.jpeg" class="img8">
+        </div>
+        <button id="Download">Download now!!!</button>
+        <button id="Updates">Click for more updates</button> 
+        </div>      
+        <script>
+            const Download = document.getElementById("Download")
+Download.addEventListener("click", function (){
+    Download.textContent = "Loading...";
+    setTimeout(function (){
+        window.location.href = "https://grand-theft-auto-5-theme.en.softonic.com/download";
+    }, 2000);
+});
+
+        </script>
+    </body>
+</html>
