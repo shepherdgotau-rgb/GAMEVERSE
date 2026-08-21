@@ -6,6 +6,6 @@ const playButton = document.getElementById("button");
 button.addEventListener("click", function (){
     button.textContent = "Loading...";
     setTimeout(function (){
-        window.location.href = "playable.html";
+        window.location.href = "Playable.html";
     }, 1500);
 });
