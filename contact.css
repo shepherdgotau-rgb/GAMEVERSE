@@ -32,3 +32,26 @@ body{
     text-decoration: none;
     color: white;
 }
+@media (max-width: 600px){
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .hero{
+        grid-template-columns: 1fr;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    button{
+        max-width: 90%;
+    }
+    .square{
+        max-width: 80%;
+        height: auto;
+    }
+}
