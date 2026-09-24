@@ -8,27 +8,20 @@ h1{
 p{
     color: white;
 }
-button{
-    background-color: cyan;
-    padding: 20px 30px;
-    color: black;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 0 0 20px cyan;
-    font-weight: 600;
-}
+
 button:hover{
     background-color: blue;
     color: white;
-    font-size: 24px;
+    width: 1450px;
+    height: 75px;
 }
 img{
-    width: 400px;
+    width: 300px;
     border-radius: 20px;
     border: 3px solid cyan;
     margin-top: 20px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    height: auto;
 }
 .navbar{
     display: flex;
@@ -97,6 +90,29 @@ img{
 .hero h1{
     font-style: italic;
 }
+.c img{
+width: 60px;
+height: auto;
+border: none;
+border-radius: 5px;
+
+}
+.c1 img{
+position: absolute;
+    top: 200px;
+    right: 40px;
+}
+.c2{
+    
+position: absolute;
+    top: 600px;
+    right: 400px;
+}
+.c3{
+    position: absolute;
+    top: 400px;
+    right: 300px;
+}
 @media (max-width: 600px){
     body{
         overflow-x: hidden;
@@ -109,14 +125,14 @@ img{
         grid-template-columns: 1fr;
     }
     img{
-        max-width: 100%;
-        height: auto;
+       width: 400px;
+       height: auto;
     }
     button{
-        max-width: 90%;
+        padding: 20px 30px;
     }
     .square{
-        max-width: 80%;
+        max-width: 1000px;
         height: auto;
     }
 }

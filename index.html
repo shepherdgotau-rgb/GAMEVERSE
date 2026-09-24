@@ -1,39 +1,287 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title id="title">Gameverse</title>
-    <link rel="stylesheet" href="style.css"> 
+    <title id="title">ELYONIX</title>
+    <style>
+        body{
+    background-color: black;
+    color: white;
+}
+h1{
+    color: cyan;
+}
+p{
+    color: white;
+}
+button{
+    background-color: cyan;
+    padding: 20px 30px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 20px cyan;
+    font-weight: 600;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+}
+img{
+    width: 300px;
+    border-radius: 20px;
+    border: 3px solid cyan;
+    margin-top: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    height: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 10px 30px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    cursor: pointer;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    color: cyan;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 10px 30px;
+}
+.hero h1{
+    font-size: 50px;
+    text-shadow: 20px;
+    text-shadow: 0 0 15px cyan;
+}
+.navbar h1{
+    color: white;
+    font-size: 30px;
+}
+.hero p{
+    margin-top: -20px;
+}
+.hero ul{
+    font-family: 'Orbitron', sans-serif;
+    margin-left: -200px;
+    margin-top: -15px;
+}
+.hero a{
+    font-size: 20px;
+    text-shadow: 0 0 10px purple;
+    margin-top: 25px;
+}
+.square{
+    width: 1570px;
+    height: 10px;
+    background-color: cyan;
+}
+.hero.image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.hero img{
+    box-shadow: 0 10px 30px cyan;
+}
+.hero h1{
+    font-style: italic;
+}
+.www{
+    
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease;
+
+}
+.c img{
+width: 60px;
+height: auto;
+border: none;
+border-radius: 5px;
+
+}
+.c1 img{
+position: absolute;
+    top: 200px;
+    right: 40px;
+}
+.c2{
+    
+position: absolute;
+    top: 600px;
+    right: 400px;
+}
+.c3{
+    position: absolute;
+    top: 400px;
+    right: 300px;
+}
+.c4{
+    position: absolute;
+    top: 100px;
+    right: 150px;
+}
+.c5{
+    position: absolute;
+    top: 400px;
+    right: 1300px;
+}
+.c6{
+    position: absolute;
+    top: 200px;
+    right: 1100px;
+}
+.c7{
+    position: absolute;
+    top: 800px;
+    right: 1500px;
+}
+.c8{
+    position: absolute;
+    right: 1000px;
+}
+@media (max-width: 600px){
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .hero{
+        grid-template-columns: 1fr;
+    }
+    img{
+       width: 400px;
+       height: auto;
+    }
+    button{
+        padding: 20px 30px;
+    }
+    .square{
+        max-width: 1000px;
+        height: auto;
+    }
+}
+.logo img{
+    width: 300px;
+    height: 300px;
+    border: black;
+}
+    </style> 
 </head>
 <body>
-<div class="square"></div>    
+    <section class="www">
+    <div class="hero-content">
+        <div class="square"></div>    
 <div class="navbar">    
-    <h1 id="title">GAMEVERSE</h1>
+    <h1 id="title">ELYONIX GAMES</h1>
     <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="Playable.html">Games</li>
+        <li><a href="Games.html">Games</li>
         <li><a href="News.html">News</a></li>
         <li><a href="Contact.html">Contact</a></li>
         <li><a href="indent.html">Score</a></li>
     </ul>
 </div>  
 <div class="hero">  
-    <h1>GAMEVERSE</h1>
+    <h1>ELYONIX</h1>
     <p>Discover the next generation of gaming and conquer worlds
         beyond imagination
     </p>
-    <button id="button">PLAY NOW</button>    
-    <img src="gaming.jpg.jpeg" alt="Gaming setup">
+    <button id="button">PLAY NOW</button>  
+    <div class="logo">
+        <img src="logo.jpeg" alt="Gaming setup">
+    </div>  
+    
+<div class="c">
+    <div class="c1">
+    <img src="gaming.jpeg" alt="Gaming setup">
+    </div>
+    <div class="c2">
+    <img src="gaming.jpeg" alt="Gaming setup">
+    </div>
+    <div class="c3">
+    <img src="gaming.jpeg" alt="Gaming setup">
+    </div>
+    <div class="c4">
+    <img src="gaming.jpeg" alt="Gaming setup">
+    </div>
+    <div class="c5">
+    <img src="gaming.jpeg" alt="Gaming setup">
+    </div>
+    <div class="c6">
+    <img src="gaming.jpeg" alt="Gaming setup">
+    </div>
+    <div class="c7">
+    <img src="gaming.jpeg" alt="Gaming setup">
+    </div>
+    <div class="c8">
+    <img src="gaming.jpeg" alt="Gaming setup">
+    </div>
+ 
+    
+</div>
     <a href="https://www.youtube.com">
         Visit Youtube
     </a>
     <h2>Featured games</h2>
-    <ul>
-        <li>Minecraft</li>
-        <li>eFootball</li>
-        <li>GTA V</li>
-        <li>FC 26</li>
-    </ul>
-</div>    
-<script src="script.js"></script>
+    <p>Have fun with a variety of game including Minecraft, eFootball, Football league, Fortnite, Gta 5. </p>
+    <p>And eventually win amazing rewards!</p>
+</div>  
+
+
+    </div>
+</section>  
+<script>
+    const hero = document.querySelector(".www");
+
+const images = [
+    "gaming.jpeg",
+    "gaming.jpg.jpeg",
+    "m.jpeg",
+    "GTA V.jpeg",
+    "FORTNITE.jpeg",
+    "FL.jpeg"
+];
+
+let current = 0;
+
+setInterval(() => {
+    current = (current + 1) % images.length;
+    hero.style.backgroundImage = `url(${images[current]})`;
+}, 4000);
+const button = document.getElementById("button");
+
+function enterGame() {
+    window.location.href = "Games.html";
+}
+
+button.addEventListener("click", enterGame);
+
+document.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        enterGame();
+    }
+});
+</script>
 </body>    
 </html>
